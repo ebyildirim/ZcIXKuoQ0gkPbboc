@@ -74,12 +74,13 @@ X['loan']=le.fit_transform(X['loan'])
 
 
 
+"""
 for i in X.columns.values:
     unique_value = X[i].unique()
     print(unique_value)
     size = len(unique_value)
     print(i,size)
-
+"""
 
 
 
